@@ -40,6 +40,30 @@ nav a {
     padding: 50px 20px;
     background-color: #ff5c00;
     color: white;
+    justify-content: space-between;
+}
+.image-container {
+  position: relative;
+  display:flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 80%;
+}
+
+.right{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 80%;
 }
 .location-input, .search-input {
     margin: 10px 0;
@@ -48,6 +72,7 @@ nav a {
     border-radius: 5px;
     border: none;
 }
+
 .services {
     display: flex;
     justify-content: space-evenly;
